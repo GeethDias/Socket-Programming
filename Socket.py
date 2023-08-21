@@ -14,4 +14,4 @@ requests = socketserver.TCPSever(("",port), Server)
 print("Server up runnig forever: ", port);
 
 
-requests.serve_forever()
+requests.serve_forever() #Run this request forever
